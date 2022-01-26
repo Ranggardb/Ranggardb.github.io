@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en" class="dd">
+  <head>
+    <title>Floral 1</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <!-- hero -->
+    <div class="container-fluid bg-global hero">
+      <!-- hero ornament right -->
+      <div class="row" style="text-align: right">
+        <div class="col">
+          <img
+            class="hero-ornament-right"
+            src="assets/images/hero-ornament-right.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <!-- hero content -->
+      <div class="row">
+        <div class="col heroContent">
+          <img
+            class="logo"
+            src="assets/icon/logo-viding.svg"
+            alt="logo viding"
+          />
+          <div class="text-body-lg color-white">We're getting married</div>
+          <div class="hero-coupleName-wrapper">
+            <span class="display-1 color-white">John</span>
+            <span class="display-1 color-white couple-separator">&</span>
+            <span class="display-1 color-white">Jane</span>
+          </div>
+          <button class="button-remind">
+            <img
+              class="button-remind-icon"
+              src="assets/icon/clock-circle.svg"
+              alt="image clock"
+            />
+            <span class="text-button color-pink">REMIND ME</span>
+          </button>
+          <div class="row countdown-wrapper">
+            <span class="countdown d-flex flex-column">
+              <div class="color-white display-2" id="days"></div>
+              <div class="color-white text-accent">Day</div>
+            </span>
+            <span class="countdown d-flex flex-column">
+              <div class="color-white display-2" id="hours"></div>
+              <div class="color-white text-accent">Hours</div>
+            </span>
+            <span class="countdown d-flex flex-column">
+              <div class="color-white display-2" id="minutes"></div>
+              <div class="color-white text-accent">Mins</div>
+            </span>
+            <span class="countdown d-flex flex-column">
+              <div class="color-white display-2" id="seconds"></div>
+              <div class="color-white text-accent">Secs</div>
+            </span>
+          </div>
+        </div>
+        <!-- hero ornament left -->
+        <div class="row" style="text-align: left">
+          <div class="col">
+            <img
+              class="hero-ornament-left"
+              src="assets/images/hero-ornament-left.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- couple -->
+    <div class="container-fluid bg-global couple">
+      <!-- couple content -->
+      <div class="row">
+        <div class="col coupleContent">
+          <div class="heading-1 color-pink">Bride & Groom</div>
+          <div class="couple-wishes text-body">
+            We're gonna spend our <br />
+            lives together.
+          </div>
+          <div class="row couple-wrapper">
+            <span class="col">
+              <div class="avatar-wrapper-groom">
+                <img class="avatar" src="assets/images/groom.png" />
+              </div>
+              <div class="couple-name color-pink display-3">
+                John Stew S.T, M.T
+              </div>
+              <div class="text-body">
+                First son of H. Heru Stiawan and <br />
+                Siti Amizah
+              </div>
+            </span>
+            <div class="col">
+              <div class="avatar-wrapper-bride">
+                <img class="avatar" src="assets/images/bride.png" />
+              </div>
+              <div class="couple-name color-pink display-3">
+                John Stew S.T, M.T
+              </div>
+              <div class="text-body">
+                First son of H. Heru Stiawan and <br />
+                Siti Amizah
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- story -->
+    <div class="container-fluid bg-global story">
+      <!-- story ornament right -->
+      <div class="row" style="text-align: right">
+        <div class="col">
+          <img
+            class="story-ornament-right"
+            src="assets/images/story-ornament-right.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <!-- story content -->
+      <div class="row">
+        <div class="col storyContent">
+          <div class="heading-1 color-pink">Our Story</div>
+          <p class="text-body story-box">
+            Starting as a friend, we got to know each other. Night after night
+            have been sending each other hundreds of messages. Not an obstacle
+            even though it is thousands of kilometers and islands far apart
+            <br />
+            Until at some point we made up our minds to extricate each other.
+            Continuous prayers are said so that we are sure to complement each
+            other. God is really very kind. Guide our hearts. At first it was
+            full of puzzles, until it became clear which path we had to take.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- gallery -->
+    <div class="container-fluid bg-global gallery">
+      <div class="row" style="text-align: left">
+        <div class="col">
+          <img
+            class="gallery-ornament-left"
+            src="assets/images/gallery-ornament-left.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <!-- gallery content -->
+      <div class="row">
+        <div class="col galleryContent">
+          <div class="swiper slider-container">
+            <div class="swiper-wrapper">
+              <img
+                class="swiper-slide"
+                src="assets/images/slider-image.png"
+                alt=""
+              />
+              <img
+                class="swiper-slide"
+                src="assets/images/slider-image.png"
+                alt=""
+              />
+              <img
+                class="swiper-slide"
+                src="assets/images/slider-image.png"
+                alt=""
+              />
+              <img
+                class="swiper-slide"
+                src="assets/images/slider-image.png"
+                alt=""
+              />
+              <img
+                class="swiper-slide"
+                src="assets/images/slider-image.png"
+                alt=""
+              />
+              <img
+                class="swiper-slide"
+                src="assets/images/slider-image.png"
+                alt=""
+              />
+              <img
+                class="swiper-slide"
+                src="assets/images/slider-image.png"
+                alt=""
+              />
+              <img
+                class="swiper-slide"
+                src="assets/images/slider-image.png"
+                alt=""
+              />
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+          <iframe
+            class="gallery-video"
+            src="https://www.youtube.com/embed/pB3irnzeocg"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <!-- location -->
+    <div class="container-fluid bg-global location">
+      <div class="row">
+        <div class="col" style="text-align: left">
+          <img
+            class="location-ornament-left"
+            src="assets/images/location-ornament-left.png"
+            alt=""
+          />
+        </div>
+        <div class="col" style="text-align: right">
+          <img
+            class="location-ornament-right"
+            src="assets/images/location-ornament-right.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <!-- location content -->
+      <div class="row">
+        <div class="col locationContent">
+          <div class="heading-1 color-pink">Venue</div>
+          <div class="text-body location-box location-note">
+            If you will be present at the event location. Please fill out the
+            form below
+          </div>
+          <div class="heading-3 location-name">Hotel Shangri -La</div>
+          <div class="text-body location-box location-address">
+            Kota BNI, Jl. Jend. Sudirman No.Kav. 1, Karet Tengsin, Kecamatan
+            Tanah Abang, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10220
+          </div>
+          <iframe
+            class="location-maps"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.568002060849!2d112.71399781477507!3d-7.28989119473841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x914612d509cc37f6!2sShangri-La%20Surabaya!5e0!3m2!1sen!2sid!4v1642943143396!5m2!1sen!2sid"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <!-- rsvp -->
+    <div class="container-fluid bg-global rsvp">
+      <div class="row">
+        <div class="col rsvpContent">
+          <div class="heading-1 color-pink">RSVP</div>
+          <!-- form -->
+          <form class="form-container form-container-rsvp">
+            <div class="row justify-content-between">
+              <input
+                type="text"
+                class="form-control text-body-md"
+                placeholder="Name"
+              />
+              <input
+                type="text"
+                class="form-control text-body-md"
+                placeholder="E-Mail"
+              />
+            </div>
+            <div class="row justify-content-between">
+              <input
+                type="text"
+                class="form-control text-body-md"
+                placeholder="Phone Number"
+              />
+              <input
+                type="text"
+                class="form-control text-body-md"
+                placeholder="The Number of Guest"
+              />
+            </div>
+            <div class="row justify-content-center">
+              <input
+                type="text"
+                class="form-control text-body-md form-center-rsvp color-grey"
+                placeholder="Confirmation Attendance"
+              />
+            </div>
+            <div class="row button-container-rsvp justify-content-center">
+              <button class="button text-button">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- guest book -->
+    <div class="container-fluid bg-global guestbook">
+      <div class="row">
+        <div class="col" style="text-align: left">
+          <img
+            class="guestbook-ornament-left"
+            src="assets/images/guestbook-ornament-left.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <!-- guestbook content -->
+      <div class="row">
+        <div class="col guestbookContent">
+          <div class="heading-1 color-pink">Guest Book</div>
+          <div class="row form-box-wrapper">
+            <div class="col column-guestbook">
+              <form class="form-container form-container-guestbook">
+                <input
+                  class="form-control form-control-guestbook text-body-md"
+                  type="text"
+                  placeholder="Name"
+                />
+                <input
+                  class="form-control form-control-guestbook text-body-md"
+                  type="text"
+                  placeholder="Address"
+                />
+                <textarea
+                  class="form-control form-textarea form-control-guestbook text-body-md"
+                  placeholder="Write Your Wishes"
+                ></textarea>
+                <div
+                  class="row button-container-guestbook justify-content-center"
+                >
+                  <button class="button text-button">Send</button>
+                </div>
+              </form>
+            </div>
+            <div class="col column-guestbook">
+              <div class="wishes-box">
+                <div class="wishes-card">
+                  <div>
+                    <span class="text-body-md wishes-name">Dewi 0 - 8</span>
+                    <span class="text-body-md">| 3 Days ago</span>
+                  </div>
+                  <div class="text-body-md">Happy Married guys!</div>
+                </div>
+                <div class="wishes-card">
+                  <div>
+                    <span class="text-body-md wishes-name">Dewi 1</span>
+                    <span class="text-body-md">| 3 Days ago</span>
+                  </div>
+                  <div class="text-body-md">Happy Married guys!</div>
+                </div>
+                <div class="wishes-card">
+                  <div>
+                    <span class="text-body-md wishes-name">Dewi 2</span>
+                    <span class="text-body-md">| 3 Days ago</span>
+                  </div>
+                  <div class="text-body-md">Happy Married guys!</div>
+                </div>
+                <div class="wishes-card">
+                  <div>
+                    <span class="text-body-md wishes-name">Dewi 3</span>
+                    <span class="text-body-md">| 3 Days ago</span>
+                  </div>
+                  <div class="text-body-md">Happy Married guys!</div>
+                </div>
+                <div class="wishes-card">
+                  <div>
+                    <span class="text-body-md wishes-name">Dewi 4</span>
+                    <span class="text-body-md">| 3 Days ago</span>
+                  </div>
+                  <div class="text-body-md">Happy Married guys!</div>
+                </div>
+                <div class="wishes-card">
+                  <div>
+                    <span class="text-body-md wishes-name">Dewi 5</span>
+                    <span class="text-body-md">| 3 Days ago</span>
+                  </div>
+                  <div class="text-body-md">Happy Married guys!</div>
+                </div>
+                <div class="wishes-card">
+                  <div>
+                    <span class="text-body-md wishes-name">Dewi 6</span>
+                    <span class="text-body-md">| 3 Days ago</span>
+                  </div>
+                  <div class="text-body-md">Happy Married guys!</div>
+                </div>
+                <div class="wishes-card">
+                  <div>
+                    <span class="text-body-md wishes-name">Dewi 7</span>
+                    <span class="text-body-md">| 3 Days ago</span>
+                  </div>
+                  <div class="text-body-md">Happy Married guys!</div>
+                </div>
+                <div class="wishes-card">
+                  <div>
+                    <span class="text-body-md wishes-name">Dewi 8</span>
+                    <span class="text-body-md">| 3 Days ago</span>
+                  </div>
+                  <div class="text-body-md">Happy Married guys!</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col" style="text-align: right">
+          <img
+            class="guestbook-ornament-right"
+            src="assets/images/guestbook-ornament-right.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <!-- gift -->
+    <div class="container-fluid bg-global gift">
+      <div class="row">
+        <div class="col giftContent">
+          <div class="heading-1 color-pink">E-Gift</div>
+          <div class="text-body gift-note">
+            Without reducing our respect, if you intend to give wedding gifts
+            online in various ways various payment methods, please fill out the
+            form provided below:
+          </div>
+          <!-- form gift -->
+          <form class="form-container">
+            <div class="row justify-content-between">
+              <div class="col column-left-gift">
+                <input
+                  type="text"
+                  class="form-control form-control-gift text-body-md"
+                  placeholder="Name"
+                />
+              </div>
+              <div class="col column-right-gift">
+                <input
+                  type="text"
+                  class="form-control form-control-gift text-body-md"
+                  placeholder="E-Mail"
+                />
+              </div>
+            </div>
+            <div class="row justify-content-between">
+              <div class="col column-left-gift">
+                <input
+                  type="text"
+                  class="form-control form-control-gift text-body-md"
+                  placeholder="Phone Number"
+                />
+              </div>
+              <div class="col column-right-gift">
+                <input
+                  type="text"
+                  class="form-control form-control-gift text-body-md"
+                  placeholder="Address"
+                />
+              </div>
+            </div>
+            <!-- input group -->
+            <div class="row justify-content-center">
+              <div class="input-group input-group-gift">
+                <div class="input-group-prepend">
+                  <span
+                    class="form-control form-control-gift input-group-text text-body-md color-white"
+                  >
+                    Rp
+                  </span>
+                </div>
+                <input
+                  type="text"
+                  class="form-control form-control-gift text-body-md mb-0"
+                  placeholder="Amount"
+                />
+              </div>
+            </div>
+            <div class="row button-container-gift justify-content-center">
+              <button class="button text-button">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- apology -->
+    <div class="container-fluid bg-global apology">
+      <div class="row">
+        <div class="col apologyContent">
+          <div class="heading-1 color-white">Apology</div>
+          <div class="text-body apology-box color-white">
+            Due to the limitations of the current pandemic, we apologize for not
+            being able to directly invite all of you to our wedding. Without
+            reducing respect, allow us to expect your virtual presence and give
+            us your blessing. <br />
+            thank you
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- livestream -->
+    <div class="container-fluid bg-global livestream">
+      <div class="row" style="text-align: left">
+        <div class="col">
+          <img
+            class="livestream-ornament-left"
+            src="assets/images/livestream-ornament-left.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col livestreamContent">
+          <div class="heading-1 color-pink">Live Streaming</div>
+          <iframe
+            class="livestream-video"
+            src="https://www.youtube.com/embed/pB3irnzeocg"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <div class="row button-container-livestream justify-content-center">
+            <button class="button text-button">Join Youtube</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- schedule -->
+    <div class="container-fluid bg-global schedule">
+      <div class="row">
+        <div class="col scheduleContent">
+          <div class="schedule-top-box">
+            <div class="heading-2 schedule-title">Live Wedding Schedule</div>
+            <div class="text-body schedule-text-top">
+              10.00 Live Wedding Schedule <br />
+              13.00 Lunch Party
+            </div>
+          </div>
+          <div class="schedule-bottom-box">
+            <div class="heading-2 schedule-title">Live Wedding</div>
+            <div class="text-body schedule-text-bottom">
+              Please watch through the bride's YouTube Live to watch a series of
+              live wedding events.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- closing -->
+    <div class="container-fluid bg-global closing">
+      <div class="row">
+        <div class="col closingContent">
+          <div class="heading-2 color-white">Thank You</div>
+          <div class="text-body color-white closing-text">
+            Thank you for joining our Live Wedding event.
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="viding-footer">
+      <div class="text-body color-white">
+        Copyright 2021 © Created with
+        <span><img src="assets/icon/icon-heart.svg" /></span>
+        by viding.co
+      </div>
+    </footer>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
